@@ -1,0 +1,16 @@
+[package]
+name = "buildsa"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+suffix_array = "0.5.0"
+suffix = "1.2"
+bio = "*"
+itertools = "0.8"
+fxhash = "0.2.1"
+bincode = "1.3.3"
+seq_io = "0.3.1"
+serde = "1.0.152"
